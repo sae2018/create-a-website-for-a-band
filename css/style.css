@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+
+/*-- Home --*/
+.logo {background: url("../images/logo.png"); background-position: top; background-repeat: no-repeat; background-size: cover; height: 192px; width: 262px; transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out;}
+.background-color-header {}
+.heading {}
+.slogan {font-family: "Chicle", cursive;}
+.menu-color-home {}
+.menuitem {}
+.menu-color-bookings {}
+.menu-color-photos {}
+.menu-color-videos {}
+.menu-color-songs {}
