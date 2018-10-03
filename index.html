@@ -4,19 +4,22 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header class="container-fluid">
             <div class="row">
                 <a href="index.html">
-                    <div class="col-md-3 logo"></div>
+                    <div class="col-xs-12 col-md-3 logo"></div>
                 </a>
-                <div class="col-md-9">
-                    <div class="row background-color-header">
+                <div class="col-xs-12 col-md-9">
+                    <div class="row bg-color-heading">
                         <div class="heading">
-                            <h1 class="slogan">Hey Hey We're The Monkees</h1>
+                            <h1 class="slogan">
+                                <span class="visible-xs">Hey Hey We're<br>The Monkees</span>
+                                <span class="visible-sm visible-md visible-lg visible-xl">Hey Hey We're The Monkees</span>
+                            </h1>
                         </div>
                     </div>
                     <div class="row">
@@ -25,23 +28,129 @@
                                 <a href="index.html" class="hvr-rectangle-in"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-xs-6 col-sm-3 menu-color-bookings menuitem">
-                                <a href="bookings.html" class="hvr-rectangle-in"><i class="far fa-calendar-alt" aria-hidden="true"></i><span>Bookings</span></a>
+                                <a href="bookings.html" class="hvr-rectangle-in"><i class="fa fa-calendar" aria-hidden="true"></i><span>Bookings</span></a>
                             </li>
-                            <li class="col-xs-6 col-sm-3 menu-color-photos menuitem">
-                                <a href="photos.html" class="hvr-rectangle-in"><i class="far fa-image" aria-hidden="true"></i><span>Photos</span></a>
-                            </li>
-                            <li class="col-xs-6 col-sm-3 menu-color-videos menuitem">
-                                <a href="videos.html" class="hvr-rectangle-in"><i class="fas fa-video" aria-hidden="true"></i><span>Videos</span></a>
+                            <li class="col-xs-6 col-sm-3 menu-color-photos-videos menuitem">
+                                <a href="photos-videos.html" class="hvr-rectangle-in"><i class="fa fa-image" aria-hidden="true"></i><span>Photos and Videos</span></a>
                             </li>
                             <li class="col-xs-6 col-sm-3 menu-color-songs menuitem">
-                                <a href="songs.html" class="hvr-rectangle-in"><i class="fas fa-music" aria-hidden="true"></i><span>Songs</span></a>
+                                <a href="songs.html" class="hvr-rectangle-in"><i class="fa fa-music" aria-hidden="true"></i><span>Songs</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </header>
-        <section></section>
-        <footer></footer>
+        <section class="container-fluid">
+            <div class="row row-table">
+                <div class="col-xs-12 col-sm-12 col-md-4 bg-color-personal-info section-column">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="section-heading uppercase">Personal Info</h3>
+                        </div>
+                    </div>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">Name:</p>
+                        </div>
+                        <div class="value">
+                            <p>Stephen Elcombe</p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">Address:</p>
+                        </div>
+                        <div class="value">
+                            <p>1 Talisman Close, Sandy, Bedfordshire, UK</p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">Phone:</p>
+                        </div>
+                        <div class="value">
+                            <p>07587 700153</p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">Email:</p>
+                        </div>
+                        <div class="value">
+                            <p>selcombe@hotmail.co.uk</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="section-heading uppercase">About Me</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                                <div class="row">
+                                    <div class="col-xs-2 col-sm-2 col-md-2">
+                                        <i class="fa fa-question three-reasons-icon" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-xs-10 col-md-10">
+                                        <h4 class="three-reasons-heading uppercase">What do I do?</h4>
+                                        <p class="about-me-padding">I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                                <div class="row">
+                                    <div class="col-xs-2 col-sm-2 col-md-2">
+                                        <i class="fa fa-thumbs-up three-reasons-icon" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-xs-10 col-md-10">
+                                        <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
+                                        <p class="about-me-padding">I follow form as well as function. I know the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                                <div class="row">
+                                    <div class="col-xs-2 col-sm-2 col-md-2">
+                                        <i class="fa fa-bolt three-reasons-icon" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-xs-10 col-md-10">
+                                        <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
+                                        <p class="about-me-padding">I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">About</h5>
+                    <p class="inline-block">Full Stack Developer. Skilled in everything from HTML5 to Heroku. The capacity for structural and design thinking.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Download My CV</h5>
+                    <p class="inline-block">
+                        Need a printable version of my CV? Download it here.
+                        <a href="assets/cv/cv-180928.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">MySocial</h5>
+                    <ul class="list-inline social-links">
+                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
