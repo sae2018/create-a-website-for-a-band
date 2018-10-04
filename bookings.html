@@ -45,32 +45,21 @@
             </div>
         </header>
         <section class="container-fluid">
-            <div class="row row-table">
-                <div class="bg-color-new-material section-column">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6">
-                            <h3 class="section-heading uppercase">New Album</h3>
-                        </div>
-                    </div>
-                    <div class="row new-material">
-                        <div class="col-xs-12 key"></div>
-                        <div class="col-xs-12 value">
-                            <p>The Monkees Christmas Party</p>
-                        </div>
-                    </div>
+            <div class="row bg-color-bookings">
+                <div>
+                    <h3 class="bookings-heading uppercase text-center">Bookings</h3>
+                    <h5 class="uppercase text-center h5-spacing visible-xs">We are available for weddings,<br>birthdays and other funtions.</h5>
+                    <h5 class="uppercase text-center h5-spacing visible-sm visible-md visible-lg visible-xl">We are available for weddings, birthdays and other funtions.</h5>
+                    <p class="text-center">If you would like to see if we are available for your event then please fill out the enquiry form below.</p>
+                    <p class="text-center"><strong>Note For My Assessor:</strong><br>Please note that the form below will not actually submit, as I have not yet been taught how to set up form submission.</p>
                 </div>
-                <div class="bg-color-new-material section-column">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6">
-                            <h3 class="section-heading uppercase">New Tour</h3>
-                        </div>
-                    </div>
-                    <div class="row new-material">
-                        <div class="col-xs-12 key"></div>
-                        <div class="col-xs-12 value">
-                            <p>Michael Nesmith and The First National Band Redux</p>
-                        </div>
-                    </div>
+                <div class="center-form">
+                    <form action="">
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                        <input type="textarea" rows="5" name="bookingsummary" class="form-control" id="bookingsummary" placeholder="Booking Details" required/>
+                        <button type="submit" class="btn btn-secondary center-block booking-submit">Send Booking Details</button>
+                    </form>
                 </div>
             </div>
         </section>
