@@ -118,30 +118,27 @@ header, h1, h2, h3, h4, h5, h6, #nav {
 }
 
 .new-material {
-    margin-bottom: 20px; 
+    margin: 20px 0; 
     display: block; 
     clear: both;
 }
 
-.new-material .key {
+.new-material-image {
     background: url("../images/placeholder.png"); 
-    background-position: top; 
+    background-position: center; 
     background-repeat: no-repeat; 
-    background-size: cover; 
-    min-height: 249px; 
+    background-size: contain; 
+    min-height: 250px; 
     transition: all .5s ease-in-out; 
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out; 
     -o-transition: all .5s ease-in-out;
 }
 
-.new-material .value {
+.new-material-text {
     display: inline-block; 
     position: relative; 
     width: 100%;
-}
-
-.new-material .value p {
     margin: 0; 
     text-align: center;
 }
@@ -233,9 +230,26 @@ button[type="submit"] {
 
 /*-- Photos and Videos --*/
 
-.photos-videos-links {
-    min-height: 100px;
+.img-thumbnail, .img-fluid {
+    transition: all .5s ease-in-out; 
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out; 
+    -o-transition: all .5s ease-in-out;
 }
 
+.img-thumbnail {
+    max-height: 150px;
+    max-width: 150px;
+}
 
+.photos-videos-links {
+     text-align: center;
+     color: #2528de;
+     margin: 10px;
+ }
+
+.photos-videos-links a:hover {
+     text-decoration: none;
+     color: #de2825;
+ }
 
