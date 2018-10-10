@@ -101,11 +101,11 @@ header, h1, h2, h3, h4, h5, h6, #nav {
     display: table;
 }
 
-.bg-color-new-material, .bg-color-bookings, .bg-color-photos-videos {
+.bg-color-new-material, .bg-color-bookings, .bg-color-photos-videos, .bg-color-songs {
     background-color: #fff;
 }
 
-.section-heading, .bookings-heading, .photos-videos-heading {
+.section-heading, .bookings-heading, .photos-videos-heading, .songs-heading {
     font-family: "Chicle", cursive;
     margin-top: 25px; 
     margin-bottom: 40px; 
@@ -242,7 +242,7 @@ button[type="submit"] {
     max-width: 150px;
 }
 
-.photos-videos-links {
+.photos-videos-links, .songs-links {
      text-align: center;
      color: #2528de;
      margin: 10px;
