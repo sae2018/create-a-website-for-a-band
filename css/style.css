@@ -12,7 +12,7 @@ header, h1, h2, h3, h4, h5, h6, #nav {
 }
 
 .logo {
-    background: url("../images/logo.jpg"); 
+    background: url("../assets/images/logo.jpg"); 
     background-position: top; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -124,7 +124,7 @@ header, h1, h2, h3, h4, h5, h6, #nav {
 }
 
 .new-material-image {
-    background: url("../images/placeholder.png"); 
+    background: url("../assets/images/placeholder.png"); 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: contain; 
@@ -167,7 +167,7 @@ footer {
 }
 
 .footer-links a, .booking-submit {
-    color: #fff; 
+    color: #ffff00; 
     text-decoration: none;
     transition: all .35s ease-in-out; 
     -moz-transition: all .35s ease-in-out; 
@@ -176,7 +176,7 @@ footer {
 }
 
 .footer-links a:hover, .booking-submit:hover {
-    color: #ffff00;
+    color: #de2825;
 }
 
 .social-links {
@@ -216,6 +216,9 @@ button[type="submit"] {
     margin-bottom: 20px; 
     background-color: #de2825;
     color: #fff;
+}
+button[type="submit"]:hover {
+    color: #ffff00;
 }
 
 .h5-spacing {

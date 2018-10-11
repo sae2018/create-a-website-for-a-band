@@ -1,30 +1,22 @@
-
-
-I wrote the code for this site using the Cloud9 (www.c9.io) website and updated the content to Git and GitHub. I tested the content and links for each page, once that page was completed and then commited it to Git and pushed it to GitHub, before setting up a GitHub Page for the project. I utilised some code I already new from previous exercises as well as researching code for extra functions not yet taught, see websites listed above. In order to have accurate information about the band I also took biographical information from Wikipedia to get the correct names of the band members.
-
-
-
-
-
 # Stephen Elcombe - User Centric Frontend Development Milestone Project - Create a website for a band
 
-This project is to create a website for The Monkees, a 60's rock/pop group. It fulfills the needs stated in the client's brief that fans should be able to see new material, view photos, view videos, listen to audio and be able to book the band for functions.
+This project is to create a website for The Monkees, a 60's rock/pop group. It fulfils the needs stated in the client's brief that fans should be able to see new material, view photos, view videos, listen to audio and be able to book the band for functions.
 
  
 ## UX
  
-I designed this website to make it easy and intuitive for fans to access the latest content and back catalogue of The Monkees. Fans would like to view and download photos and videos and listen to songs by the band. I have made these assets available in an easy to understand way on seperate pages. My original wireframe is available at https://create-a-website-for-a-band-sae2018.c9users.io/wireframe.png.
+I designed this website to make it easy and intuitive for fans to access the latest content and back catalogue of The Monkees. Fans would like to view and download photos and videos and listen to songs by the band. I have made these assets available in an easy to understand way on separate pages. My original wireframe is available at https://create-a-website-for-a-band-sae2018.c9users.io/wireframe.png.
 
 - As a fan of the band, I want to view or download photos, so that I can see photos of the band or download them to their device.
 - As a fan of the band, I want to view or download videos, so that I can watch videos of the band or download them to their device.
 - As a fan of the band, I want to listen to or download songs, so that I can hear music from the band or download them to their device.
 - As a fan of the band, I want to book them for my function, so that they can perform live at an event.
-- As a fan of the band, I want to conect with the band on social media to keep up to date with the latest information.
+- As a fan of the band, I want to connect with the band on social media to keep up to date with the latest information.
 
 
 ## Features
 
-New Material - This is displayed on the homepage. In order to show the new material from the band on the website I have asked permission to use the grapics from the offical Monkees website, but as of today 10/10/18 I am still waiting to see if permission has been granted to me to use the images from their new material, as this was obviously not contained within the resouces given for the project.
+New Material - This is displayed on the homepage. In order to show the new material from the band on the website I have asked permission to use the graphics from the official Monkees website, but as of today 10/10/18 I am still waiting to see if permission has been granted to me to use the images from their new material, as this was obviously not contained within the resources given for the project.
 
 Bookings - A page detailing how to book the band for functions, examples of what sort of functions they may be able to attend and a contact form, in order to make an enquiry about whether the band would be available for a specific event.
 
@@ -78,8 +70,8 @@ I have also used the following websites as references for code or content:
 I have been through the whole site and tested every link on every page to ensure they all work as expected.
 
 To test my site's validity I used:
-HTML5: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsae2018.github.io%2Fcreate-a-website-for-a-band%2F
-CSS3: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsae2018.github.io%2Fcreate-a-website-for-a-band%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+HTML5: https://validator.w3.org/nu/
+CSS3: https://jigsaw.w3.org/css-validator/
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
@@ -91,7 +83,7 @@ For any scenarios that have not been automated, test the user stories manually a
 
 2. Photos:
     1. Go to the "Photos and Videos" page
-    2. Left click on one of the thumbnail photos or the photo name and verify that the photo loads fullsize into a new browser window
+    2. Left click on one of the thumbnail photos or the photo name and verify that the photo loads full-size into a new browser window
     3. Right click on the image to confirm that you can copy or save the photo
 
 3. Videos:
@@ -120,14 +112,14 @@ Differences between the deployed version and the development version:
 
 
 ## Credits
-Thanks for their help when I got stuck go to the Code Institute Tutor Team aned to my mentor who went through my work before submission. I would also like to thank the websites whose resources I used both when I was stuck and for website functionality, as listed in the ## Technologies Used section above.
+Thanks for their help when I got stuck go to the Code Institute Tutor Team and to my mentor who went through my work before submission. I would also like to thank the websites whose resources I used both when I was stuck and for website functionality, as listed in the ## Technologies Used section above.
 
 ### Content
 - The 'About Us' text for the footer was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
 
 
 ### Media
-- The photos, videos and audio used in this site were obtained from the resources section for the project. In order to use the images of new material on the homepage I saught permission from The Monkees official website, but as at today 11/10/18 I have not yet heard whether I have permission to use these images or not, and therefore have a placeholder image to show where they would go.
+- The photos, videos and audio used in this site were obtained from the resources section for the project. In order to use the images of new material on the homepage I sought permission from The Monkees official website, but as at today 11/10/18 I have not yet heard whether I have permission to use these images or not, and therefore have a placeholder image to show where they would go.
 
 
 ### Acknowledgements
